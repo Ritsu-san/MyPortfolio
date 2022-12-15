@@ -1,0 +1,86 @@
+
+body { margin: 0;
+background: url(images/FS.jpg);
+background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;     
+}
+.header {
+  top: 0;
+  padding: 0px;
+  background: #508fdf;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.header a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.tryna {
+  text-align: center;
+  font-family: Garamond;
+}
+
+
+.tryna h1:hover {
+  transition: 0.5s;
+  color: gold;
+}
+
+
+.footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer {
+  overflow: hidden;
+    background: #508fdf;
+}
+.footer {
+  padding: 0px;
+  background: #508fdf;
+  color: white;
+}
+
+
+.suggestion-selection .text{
+  padding: 20px;
+  position: relative;
+  height: 320px;
+}
+
+.suggestion-selection .text h3{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.suggestion-selection .text span{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  display: inline-block;
+  background: #33313b;
+  padding: 4px 5px 4px 15px;
+  border-radius: 20px 0 0 20px;
+}
+
+.img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+a{
+  text-decoration: none;
+  background-color: transparent;
+}
